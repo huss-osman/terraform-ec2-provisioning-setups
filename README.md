@@ -1,42 +1,18 @@
-<p align="center">
-  <a href="./wordpress-userdata/">
-    <img src="https://github.com/user-attachments/assets/b89f7e56-58fe-4f56-ad8d-eba434331ed6"
-         width="465"
-         alt="WordPress Userdata Deployment">
-  </a>
+# Terraform EC2 Provisioning Setups
+<!-- Tooling -->
+![Terraform](https://img.shields.io/badge/Terraform-5C4EE5?logo=terraform&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white)
+![Cloud-Init](https://img.shields.io/badge/Cloud--Init-6DB33F?logo=cloud-init&logoColor=white)
 
-  <a href="./nginx-cloud-init/">
-    <img src="https://github.com/user-attachments/assets/330646f2-97f3-4c9f-b62d-157d81a15151"
-         width="489"
-         alt="NGINX Cloud-Init Deployment">
-  </a>
-</p>
+<!-- AWS -->
+![AWS](https://img.shields.io/badge/AWS-FF9900?logo=amazon-aws&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?logo=amazon-aws&logoColor=white)
 
-<p align="center">
-  <a href="./wordpress-userdata/"><strong>WordPress Userdata Deployment</strong></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="./nginx-cloud-init/"><strong>NGINX Cloud-Init Deployment</strong></a>
-</p>
-
-<h1 align="center">Terraform EC2 Provisioning Setups</h1>
-
-<p align="center"><strong>The free, open-source Azure emulator. Develop and test your Azure apps locally.</strong></p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Terraform-5C4EE5?logo=terraform&logoColor=white" alt="Terraform">
-  <img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white" alt="Bash">
-  <img src="https://img.shields.io/badge/Cloud--Init-6DB33F?logo=cloud-init&logoColor=white" alt="Cloud-Init">
-  <img src="https://img.shields.io/badge/AWS-FF9900?logo=amazon-aws&logoColor=white" alt="AWS">
-  <img src="https://img.shields.io/badge/EC2-FF9900?logo=amazon-aws&logoColor=white" alt="EC2">
-  <img src="https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white" alt="NGINX">
-  <img src="https://img.shields.io/badge/Apache-CA1F00?logo=apache&logoColor=white" alt="Apache">
-  <img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" alt="PHP">
-  <img src="https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=white" alt="WordPress">
-</p>
-
-<p align="center">Local Azure development. One binary. No account needed.</p>
-
-> **Disclaimer:** miniblue is an independent open-source project. It is not affiliated with, endorsed by, or associated with Microsoft or Azure.
+<!-- Stack Technologies -->
+![NGINX](https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white)
+![Apache](https://img.shields.io/badge/Apache-CA1F00?logo=apache&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=white)
 
 ## Overview
 
@@ -56,7 +32,7 @@ A traditional userdata-driven EC2 configuration that installs Apache, PHP and Wo
 Illustrates a script-based provisioning workflow that handles full server bootstrap via Bash.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b89f7e56-58fe-4f56-ad8d-eba434331ed6" width="500" alt="AWS/Terraform Architecture Diagram"> 
+  <img src="https://github.com/user-attachments/assets/cfc609f5-fe98-40d0-8078-6a6640d11450" width="500" alt="AWS/Terraform Architecture Diagram"> 
 </p>
 
 ### 2. NGINX Cloud-Init Deployment  
@@ -64,7 +40,7 @@ A lightweight EC2 deployment that uses cloud-init to install and configure NGINX
 Shows how to use declarative YAML for cleaner provisioning and easier maintenance.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/330646f2-97f3-4c9f-b62d-157d81a15151" width="500" alt="AWS/Terraform Architecture Diagram">
+  <img src="https://github.com/user-attachments/assets/f8ef9ec6-3cca-4add-ace0-54939e9ae771" width="500" alt="AWS/Terraform Architecture Diagram">
 </p>
 
 ## Repository Structure
