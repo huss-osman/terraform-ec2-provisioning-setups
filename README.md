@@ -5,7 +5,7 @@
 ![Cloud-Init](https://img.shields.io/badge/Cloud--Init-6DB33F?logo=cloud-init&logoColor=white)
 
 <!-- AWS -->
-![AWS](https://img.shields.io/badge/AWS-FF9900?logo=amazon-aws&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?logo=amazon-aws&logoColor=white
 ![EC2](https://img.shields.io/badge/EC2-FF9900?logo=amazon-aws&logoColor=white)
 
 <!-- Stack Technologies -->
